@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\facultad\\SEGUNDO\\PROGRAMACION 2\\trabajos\\ESTRUCTURA_CONTROL_FLUJO\\ESTRUCTURA_CONTROL_FLUJO\\MENOR\\MENOR.vbproj": {}
+  },
+  "projects": {
+    "E:\\facultad\\SEGUNDO\\PROGRAMACION 2\\trabajos\\ESTRUCTURA_CONTROL_FLUJO\\ESTRUCTURA_CONTROL_FLUJO\\MENOR\\MENOR.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\facultad\\SEGUNDO\\PROGRAMACION 2\\trabajos\\ESTRUCTURA_CONTROL_FLUJO\\ESTRUCTURA_CONTROL_FLUJO\\MENOR\\MENOR.vbproj",
+        "projectName": "MENOR",
+        "projectPath": "E:\\facultad\\SEGUNDO\\PROGRAMACION 2\\trabajos\\ESTRUCTURA_CONTROL_FLUJO\\ESTRUCTURA_CONTROL_FLUJO\\MENOR\\MENOR.vbproj",
+        "packagesPath": "C:\\Users\\wasti\\.nuget\\packages\\",
+        "outputPath": "E:\\facultad\\SEGUNDO\\PROGRAMACION 2\\trabajos\\ESTRUCTURA_CONTROL_FLUJO\\ESTRUCTURA_CONTROL_FLUJO\\MENOR\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wasti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
