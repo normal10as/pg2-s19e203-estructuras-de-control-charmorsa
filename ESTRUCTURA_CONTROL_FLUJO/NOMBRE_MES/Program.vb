@@ -1,8 +1,7 @@
 Imports System
 Module Program
     Enum meses
-        nomes
-        ENERO
+        ENERO = 1
         FEBRERO
         MARZO
         ABRIL
@@ -25,33 +24,31 @@ Module Program
 
     Sub mes(a)
         Select Case a
-            Case 0
-                Console.Write("El numero es Invalido")
-            Case 1
+            Case meses.ENERO
+                Console.Write("ENERO")
+            Case meses.FEBRERO
                 Console.Write(a.ToString)
-            Case 2
+            Case meses.MARZO
+                Console.Write("MARZO")
+            Case meses.ABRIL
                 Console.Write(a.ToString)
-            Case 3
+            Case meses.MAYO
+                Console.Write("MAYO")
+            Case meses.JUNIO
                 Console.Write(a.ToString)
-            Case 4
+            Case meses.JULIO
+                Console.Write("JULIO")
+            Case meses.AGOSTO
                 Console.Write(a.ToString)
-            Case 5
+            Case meses.SEPTIEMBRE
+                Console.Write("SEPTIEMBRE")
+            Case meses.OCTUBRE
                 Console.Write(a.ToString)
-            Case 6
+            Case meses.NOVIEMBRE
+                Console.Write("NOVIEMBRE")
+            Case meses.DICIEMBRE
                 Console.Write(a.ToString)
-            Case 7
-                Console.Write(a.ToString)
-            Case 8
-                Console.Write(a.ToString)
-            Case 9
-                Console.Write(a.ToString)
-            Case 10
-                Console.Write(a.ToString)
-            Case 11
-                Console.Write(a.ToString)
-            Case 12
-                Console.Write(a.ToString)
-            Case Is > 12
+            Case Else
                 Console.Write("El Numero es Invalido")
         End Select
     End Sub

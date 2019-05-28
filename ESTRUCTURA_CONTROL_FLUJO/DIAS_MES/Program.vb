@@ -2,8 +2,7 @@ Imports System
 Imports System.DateTime
 Module Program
     Enum meses
-        nomes
-        ENERO
+        ENERO = 1
         FEBRERO
         MARZO
         ABRIL

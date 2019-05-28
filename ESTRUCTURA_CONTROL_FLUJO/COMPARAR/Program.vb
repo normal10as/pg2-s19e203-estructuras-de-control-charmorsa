@@ -3,10 +3,8 @@ Imports System
 Module Program
     Sub Main(args As String())
         Dim a, b, r As Byte
-        Console.Write("ingrese un valor: ")
-        a = Console.ReadLine()
-        Console.Write("ingrese otro valor: ")
-        b = Console.ReadLine()
+        a = ingresar_dato("ingresar un valor")
+        b = ingresar_dato("ingresar otro valor")
 
         Console.WriteLine(comparacion(a, b))
     End Sub
@@ -25,4 +23,10 @@ Module Program
         End If
     End Function
 
+    Function ingresar_dato(mensaje As String) As Integer
+        Dim valor As Integer
+        Console.Write(mensaje)
+        valor = Console.ReadLine()
+        Return valor
+    End Function
 End Module
